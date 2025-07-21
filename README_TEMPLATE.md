@@ -1,18 +1,18 @@
-# n8n-nodes-_node-name_
+# n8n-nodes-yocharge-dashboard-summary
 
-This is an n8n community node. It lets you use _app/service name_ in your n8n workflows.
+This is an n8n community node. It lets you use YoCharge's Transaction & Summary API in your n8n workflows.
 
-_App/service name_ is _one or two sentences describing the service this node integrates with_.
+YoCharge provides APIs for accessing transaction data and summary reports, enabling seamless integration of EV charging business analytics into your automation workflows.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
 [Installation](#installation)  
 [Operations](#operations)  
-[Credentials](#credentials)  <!-- delete if no auth needed -->  
+[Credentials](#credentials)  
 [Compatibility](#compatibility)  
-[Usage](#usage)  <!-- delete if not using this section -->  
+[Usage](#usage)  
 [Resources](#resources)  
-[Version history](#version-history)  <!-- delete if not using this section -->  
+[Version history](#version-history)  
 
 ## Installation
 
@@ -20,29 +20,32 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Operations
 
-_List the operations supported by your node._
+- Fetch transaction data
+- Retrieve summary reports
 
 ## Credentials
 
-_If users need to authenticate with the app/service, provide details here. You should include prerequisites (such as signing up with the service), available authentication methods, and how to set them up._
+This node requires an API key for authentication with the YoCharge API.
+
+1. Sign up for a YoCharge account and obtain your API key.
+2. Enter your API key in the node credentials when configuring the node in n8n.
 
 ## Compatibility
 
-_State the minimum n8n version, as well as which versions you test against. You can also include any known version incompatibility issues._
+- Minimum n8n version: 1.0.0
+- Tested with latest n8n versions
 
 ## Usage
 
-_This is an optional section. Use it to help users with any difficult or confusing aspects of the node._
-
-_By the time users are looking for community nodes, they probably already know n8n basics. But if you expect new users, you can link to the [Try it out](https://docs.n8n.io/try-it-out/) documentation to help them get started._
+_Use this section to provide tips or examples for using the node, if needed._
 
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
-* _Link to app/service documentation._
+* [YoCharge API documentation](#) <!-- Add actual link if available -->
 
 ## Version history
 
-_This is another optional section. If your node has multiple versions, include a short description of available versions and what changed, as well as any compatibility impact._
+_Include a short description of available versions and what changed, as well as any compatibility impact._
 
 
